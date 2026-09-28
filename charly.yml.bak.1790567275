@@ -1,5 +1,7 @@
+version: 2026.232.0520
 cachyos-extras:
     candy:
+        version: 2026.149.1210
         description: |
             Installs the CachyOS host-parity workstation toolset — pacman/AUR helpers, diagnostic monitors, editors, tunnels, and desktop-integration packages.
             The remaining host workstation tools not already covered by the charly dev
@@ -10,7 +12,7 @@ cachyos-extras:
             lands as a real pacman repo or AUR package, so each tool's binary and
             package identity is independently verifiable on the built image.
         require:
-            - '@github.com/opencharly/layer-yay:v2026.240.0121'
+            - '@github.com/opencharly/layer-yay:v2026.237.503'
         distro:
             arch:
                 package:
