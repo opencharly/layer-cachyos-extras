@@ -47,8 +47,6 @@ command -v cloudflared
 - `charly.yml` — the candy manifest: the `pac:` and `aur:` package lists, an
   ordered `plan:` of build-time `check:` steps, and the embedded `skill:` entity
   (when present).
-- `.github/workflows/deploy.yml` — builds the pinned charly and runs
-  `charly box validate` on the manifest (the merge gate).
 - `.github/workflows/tag-on-merge.yml` — CalVer tag + `CHANGELOG/` on merge.
 - `README.md` — this user overview.
 
