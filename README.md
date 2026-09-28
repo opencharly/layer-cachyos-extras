@@ -54,7 +54,9 @@ command -v cloudflared
 
 ## Related
 
-- Owning skill: none yet (see `/charly-distros:cachyos` for the CachyOS base)
+- Owning skill: none yet — routed to the skill-authoring batch
+  [`opencharly/opencharly#291`](https://github.com/opencharly/opencharly/issues/291);
+  meanwhile see `/charly-distros:cachyos` for the CachyOS base
 - Requires: `/charly-tools:yay`
 - Consumed by: `distro-cachyos` (the operator workstation profile)
 - [`opencharly/charly`](https://github.com/opencharly/charly) — the charly CLI and image builder

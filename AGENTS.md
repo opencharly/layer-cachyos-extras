@@ -24,7 +24,8 @@ Canonical files:
   editing any entity field or plan step.
 
 There is no dedicated `/charly-*:cachyos-extras` owning skill yet — this repo's
-candy carries no `skill:` entity. When one is authored, add it here.
+candy carries no `skill:` entity. The gap is routed to the named skill-authoring
+batch `opencharly/opencharly#291`; when that lands, add the owning skill here.
 
 ## Build / validate / test
 
