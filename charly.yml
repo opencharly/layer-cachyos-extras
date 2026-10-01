@@ -10,7 +10,7 @@ cachyos-extras:
             lands as a real pacman repo or AUR package, so each tool's binary and
             package identity is independently verifiable on the built image.
         require:
-            - '@github.com/opencharly/layer-yay:v2026.237.503'
+            - '@github.com/opencharly/layer-yay:v2026.272.0425'
         distro:
             arch:
                 package:
